@@ -9,3 +9,201 @@ font-family: 'PT Sans', sans-serif; (Steppe)*/
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #004F44;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.btn {
+    padding: 20px 40px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    border: none;
+}
+
+.btn-light {
+    color: #004F44;
+    background-color: #EFF7F5;
+}
+
+.btn-dark {
+    color: #EFF7F5;
+    background-color: #004F44;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    position: relative;
+    padding-top: 20px;
+}
+
+nav .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-links ul {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.nav-links ul li a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: DM Sans;
+    position: relative;
+}
+
+.nav-links ul li .dwn-arrow {
+    position: absolute;
+    top: 20%;
+    font-size: 14px;
+}
+
+.nav-links.right-nav ul li a {
+    margin-right: unset;
+    margin-left: 20px;
+}
+
+.hero {
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-left,
+.hero-right {
+    width: 45%;
+}
+
+.hero .hero-left h1 {
+    color: #EFF7F5;
+    font-family: 'Comfortaa', cursive;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: 1.5px;
+}
+
+.hero .hero-left p {
+    color: #EFF7F5;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 28px;
+    letter-spacing: 0.3px;
+    margin: 32px 0;
+}
+
+.hero .hero-left a {
+    color: #EFF7F5;
+    margin-left: 40px;
+    position: relative;
+}
+
+.hero .hero-left a .right-arrow {
+    position: absolute;
+    left: 105%;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.hero .hero-right {
+    display: flex;
+
+}
+
+.hero .hero-right .new,
+.hero .hero-right .popular {
+    width: 223px;
+    height: 257px;
+}
+
+
+
+.hero .hero-right .new,
+.hero .hero-right .popular,
+.hero .hero-right .featured {
+    margin: 5px;
+    padding: 20px;
+    position: relative;
+}
+
+
+.hero .hero-right .new {
+    background-image: url(./assets/image3.png);
+}
+
+.hero .hero-right .popular {
+    background-image: url(./assets/image2.png);
+}
+
+.hero .hero-right .featured {
+    width: 100%;
+    background-image: url(./assets/image1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .hero-right .batch {
+    position: absolute;
+    padding: 8px 15px;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #004F44;
+}
+
+.hero .hero-right .hover-details {
+    background-image: url(./assets/image4.png);
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    padding: 25px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.hero .hero-right .hover-details h3 {
+    color: #EFF7F5;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+
+.hero .hero-right .hover-details p {
+    color: #EFF7F5;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    margin: 8px 0;
+
+}
+
+.hero .hero-right .hover-details .btn {
+    width: 100%;
+    padding: 10px;
+    color: #004F44;
+    font-size: 12px;
+    letter-spacing: 3.2px;
+}
