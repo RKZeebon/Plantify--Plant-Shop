@@ -460,3 +460,52 @@ nav .logo {
     font-weight: 400;
 
 }
+
+.visit-us {
+    padding: 60px 0;
+}
+
+.visit-us .location {
+    background-image: url(./assets/map.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 30px;
+}
+
+.visit-us .location .address {
+    background-color: #FFF;
+    width: 520px;
+    position: relative;
+    padding: 30px;
+}
+
+.visit-us .location .address h3 {
+    color: #0A1E1B;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.visit-us .location .address p {
+    color: #666;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.visit-us .location .address p span {
+    color: #0A1E1B;
+    text-decoration: underline;
+}
+
+.visit-us .location .address .direction-batch {
+    padding: 15px;
+    background-color: #004F44;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
