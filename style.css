@@ -434,6 +434,7 @@ nav .logo {
     height: 350px;
     background-image: url(./assets/image12.png);
     background-repeat: no-repeat;
+    background-size: cover;
     padding: 60px;
 }
 
@@ -468,7 +469,12 @@ nav .logo {
 .visit-us .location {
     background-image: url(./assets/map.png);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 300px;
+}
+
+.visit-us .location .overlay {
+    background-color: rgba(10, 30, 27, .25);
     padding: 30px;
 }
 
