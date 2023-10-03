@@ -475,6 +475,7 @@ nav .logo {
 
 .visit-us .location .overlay {
     background-color: rgba(10, 30, 27, .25);
+    height: 100%;
     padding: 30px;
 }
 
