@@ -424,3 +424,39 @@ nav .logo {
     align-items: center;
     justify-content: space-between;
 }
+
+.shipping-service {
+    padding: 80px 0;
+
+}
+
+.shipping-service .shipping-service-info {
+    height: 350px;
+    background-image: url(./assets/image12.png);
+    background-repeat: no-repeat;
+    padding: 60px;
+}
+
+.shipping-service .shipping-service-info h1 {
+    color: #9C6955;
+    font-size: 44px;
+    font-weight: 400;
+
+}
+
+.shipping-service .shipping-service-info span {
+    color: #9C6955;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.shipping-service .shipping-service-contact {
+    margin-top: 60px;
+}
+
+.shipping-service .shipping-service-contact p {
+    color: #9C6955;
+    font-weight: 400;
+
+}
