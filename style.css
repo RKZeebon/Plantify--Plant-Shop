@@ -298,3 +298,44 @@ nav .logo {
     top: 30%;
     right: 0;
 }
+
+.large-search {
+    background-color: #F3FFFC;
+    height: 230px;
+
+}
+
+.search-area {
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.search-area .option {
+    font-size: 48px;
+    padding: 5px;
+    color: #004F44;
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+    font-weight: 400;
+    border: 2px solid #004F44;
+}
+
+.search-area .search-box {
+    width: calc(100% - 120px);
+}
+
+.search-area .search-box input {
+    width: 100%;
+    color: #004F44;
+    border: 2px solid #004F44;
+    padding: 20px;
+}
+
+.search-area .search-btn button {
+    margin-left: 15px;
+    padding: 16px;
+    font-size: 20px;
+
+}
